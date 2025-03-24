@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Local Data Storage" Height="450" Width="800">
+    <Grid>
+        <!-- Add Person Section -->
+        <Label Content="Enter Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" />
+        <TextBox Name="txtName" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,10,0,0" />
+
+        <Label Content="Enter Age:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,0,0" />
+        <TextBox Name="txtAge" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,40,0,0" />
+
+        <Label Content="Enter Address:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,70,0,0" />
+        <TextBox Name="txtAddress" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,70,0,0" />
+
+        <Button Name="btnAdd" Content="Add Person" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,100,0,0" Click="btnAdd_Click"/>
+
+        <!-- Search Section -->
+        <Label Content="Search by Age:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="332,11,0,0" />
+        <TextBox Name="txtSearchAge" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="431,11,0,0" RenderTransformOrigin="0.5,0.545" />
+
+        <Label Content="Search by Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="332,40,0,0" />
+        <TextBox Name="txtSearchName" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="431,41,0,0" />
+
+        <Button Name="btnSearchByAge" Content="Search by Age" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="636,11,0,0" Click="btnSearchByAge_Click"/>
+        <Button Name="btnSearchByName" Content="Search by Name" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="636,40,0,0" Click="btnSearchByName_Click"/>
+
+        <!-- Remove Section -->
+        <Label Content="Remove by Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,140,0,0" />
+        <TextBox Name="txtRemoveName" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,140,0,0" />
+
+        <Label Content="Remove by Age:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,170,0,0" />
+        <TextBox Name="txtRemoveAge" Width="200" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,170,0,0" />
+
+        <Button Name="btnRemoveByName" Content="Remove by Name" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="326,140,0,0" Click="btnRemoveByName_Click"/>
+        <Button Name="btnRemoveByAge" Content="Remove by Age" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="326,170,0,0" Click="btnRemoveByAge_Click"/>
+
+        <!-- Sort Section -->
+        <Button Name="btnSortByAge" Content="Sort by Age" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,230,0,0" Click="btnSortByAge_Click"/>
+        <Button Name="btnSortByName" Content="Sort by Name" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,230,0,0" Click="btnSortByName_Click"/>
+
+        <!-- ListBox to display people -->
+        <ListBox Name="lstPeople" Width="400" Height="150" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,260,0,0"/>
+    </Grid>
+</Window>
