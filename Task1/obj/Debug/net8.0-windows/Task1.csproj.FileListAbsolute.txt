@@ -17,3 +17,4 @@ C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\Task1\obj\Debug\net8.0-windows\re
 C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\Task1\obj\Debug\net8.0-windows\Task1.pdb
 C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\Task1\obj\Debug\net8.0-windows\Task1.genruntimeconfig.cache
 C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\Task1\obj\Debug\net8.0-windows\ref\Task1.dll
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\Task1\obj\Debug\net8.0-windows\Task1.sourcelink.json

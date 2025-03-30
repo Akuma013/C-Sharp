@@ -7,8 +7,8 @@ namespace WpfApp
 {
     public partial class MainWindow : Window
     {
-        private Person[] peopleArray = new Person[0]; // Array to store people
-        private int idCounter = 1; // Auto-increment ID
+        private Person[] peopleArray = new Person[0]; 
+        private int idCounter = 1;
 
         public MainWindow()
         {
@@ -39,7 +39,7 @@ namespace WpfApp
                 return;
             }
 
-            // Resize array and add new person
+           
             Array.Resize(ref peopleArray, peopleArray.Length + 1);
             peopleArray[^1] = new Person(idCounter++, name, age, address);
             UpdateListBox();
@@ -150,7 +150,7 @@ namespace WpfApp
 
         private bool IsValidName(string name)
         {
-            return Regex.IsMatch(name, @"^[A-Za-z\s]+$"); // Allows only letters and spaces
+            return Regex.IsMatch(name, @"^[A-Za-z\s]+$");
         }
     }
 
