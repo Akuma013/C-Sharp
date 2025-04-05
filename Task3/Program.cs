@@ -1,30 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 
+int[] baseArray = new int[100];
+Random random = new Random();
+for (int i = 0; i < baseArray.Length; i++)
+    baseArray[i] = random.Next(1, 1001);
+
 Console.WriteLine("<=========================>");
 Console.WriteLine("<=========================>");
 Console.WriteLine("<=========================>");
+
 //------------------------
 Strategy sort = new SelectionSort();
-var context = new Context(sort);
+var context = new Context(sort,baseArray);
 double timeS = context.Sort();
 context.PrintArray();
 Console.WriteLine($"Selection Sort took: {timeS} ms\n");
 //---------------------
 sort = new InsertionSort();
-context = new Context(sort);
+context = new Context(sort, baseArray);
 double timeI = context.Sort();
 context.PrintArray();
 Console.WriteLine($"Insertion Sort took: {timeI} ms\n");
 //---------------------
 sort = new MergeSort();
-context = new Context(sort);
+context = new Context(sort, baseArray);
 double timeM = context.Sort();
 context.PrintArray();
 Console.WriteLine($"Merge Sort took: {timeM} ms\n");
 //----------------------
 sort = new ShellSort();
-context = new Context(sort);
+context = new Context(sort, baseArray);
 double timeShell = context.Sort();
 context.PrintArray();
 Console.WriteLine($"Shell Sort took: {timeShell} ms\n");
@@ -39,12 +45,11 @@ class Context
     int[] array;
     Random random = new Random();
 
-    public Context(Strategy strategy)
+    public Context(Strategy strategy, int[] inputArray)
     {
         this.strategy = strategy;
-        array = new int[100];
-        for (int i = 0; i < array.Length; i++)
-            array[i] = random.Next(1, 1001);
+        array = (int[])inputArray.Clone();
+
     }
     public double Sort()
     {
