@@ -36,10 +36,15 @@ Console.WriteLine($"Shell Sort took: {timeShell} ms\n");
 class Context
 {
     Strategy strategy;
-    int[] array = { 3, 5, 1, 2, 4 };
+    int[] array;
+    Random random = new Random();
+
     public Context(Strategy strategy)
     {
         this.strategy = strategy;
+        array = new int[100];
+        for (int i = 0; i < array.Length; i++)
+            array[i] = random.Next(1, 1001);
     }
     public double Sort()
     {
