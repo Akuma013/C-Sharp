@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\bin\Debug\net8.0\kentavr.exe
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\bin\Debug\net8.0\kentavr.deps.json
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\bin\Debug\net8.0\kentavr.runtimeconfig.json
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\bin\Debug\net8.0\kentavr.dll
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\bin\Debug\net8.0\kentavr.pdb
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.AssemblyInfo.cs
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.sourcelink.json
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.dll
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\refint\kentavr.dll
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.pdb
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\kentavr.genruntimeconfig.cache
+C:\Users\user\Desktop\UFAR\Grade2\Sm2\C#\Tasks\kentavr\obj\Debug\net8.0\ref\kentavr.dll
